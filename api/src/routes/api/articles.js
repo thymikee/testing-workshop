@@ -184,6 +184,10 @@ function getArticlesRouter() {
       req.article.body = req.body.article.body
     }
 
+    if (typeof req.body.article.tagList !== 'undefined') {
+      req.article.tagList = req.body.article.tagList
+    }
+
     return Promise.all([req.article.save(), User.findById(req.payload.id)])
       .then(([article, user]) => {
         return res.json({article: article.toJSONFor(user)})

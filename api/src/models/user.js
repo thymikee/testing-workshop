@@ -83,6 +83,7 @@ function getUserSchema() {
       // this is where the bug is...
       // we're not adding this.image
       // to the object!
+      image: this.image,
       following: user ? user.isFollowing(this._id) : false,
     }
   }
