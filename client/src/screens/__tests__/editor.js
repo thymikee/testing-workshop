@@ -13,6 +13,8 @@ import {Component as Editor} from '../editor'
 //   and play around with the tag component. How could we use some
 //   of the utilities to make sure that interaction keeps working?
 
+test('name it properly')
+
 // I'm going to go ahead and give these utils to you
 // because I think you get the idea :)
 // And this is a little domain-specific anyway.
@@ -55,18 +57,3 @@ function keyUpInput(input, keyCode) {
 function sel(id) {
   return `[data-test="${id}"]`
 }
-
-//////// Elaboration & Feedback /////////
-// When you've finished with the exercises:
-// 1. Copy the URL below into your browser and fill out the form
-// 2. remove the `.skip` from the test below
-// 3. Change submitted from `false` to `true`
-// 4. And you're all done!
-/*
-http://ws.kcd.im/?ws=Testing&e=Client%20Unit%20Editor&em=
-*/
-test.skip('I submitted my elaboration and feedback', () => {
-  const submitted = false // change this when you've submitted!
-  expect(true).toBe(submitted)
-})
-////////////////////////////////
