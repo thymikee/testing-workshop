@@ -1,21 +1,12 @@
 # Testing Workshop
 
-👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a workshop repo to teach you about testing
-JavaScript applications.
+This is a workshop repo to teach you about testing JavaScript applications. It's based on fantastic reasources by [Kent C. Dodds](https://kentcdodds.com).
 
 [![slides-badge][slides-badge]][slides]
 [![chat-badge][chat-badge]][chat]
 [![Build Status][build-badge]][build]
 [![Dependencies][dependencyci-badge]][dependencyci]
 [![MIT License][license-badge]][LICENSE]
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
-
-[![PRs Welcome][prs-badge]][prs]
-[![Donate][donate-badge]][donate]
-[![Code of Conduct][coc-badge]][coc]
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
 
 ## Thank You
 
@@ -63,7 +54,7 @@ After you've made sure to have the correct things (and versions) installed, you 
 commands to get set up:
 
 ```
-git clone https://github.com/kentcdodds/testing-workshop.git
+git clone https://github.com/thymikee/testing-workshop.git
 cd testing-workshop
 npm run setup --silent
 node ./scripts/autofill-feedback-email.js YOUR@EMAIL.com
@@ -176,24 +167,10 @@ repository, but to simplify setup I've included both the `api` and `client` proj
 of the project has a `package.json` as does `api`, and `client`. Most of our time working on tooling and running tests
 will be in one of these sub-directories (with the exception of the E2E tests).
 
-[issue]: https://github.com/kentcdodds/testing-workshop/issues/new
-
 # LICENSE
 
 The original projects are licensed as noted in their respective `package.json` files. The rest of this project is MIT
 licensed.
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars.githubusercontent.com/u/8601733?v=3" width="100px;"/><br /><sub>Thinkster</sub>](https://thinkster.io)<br />[💻](https://github.com/kentcdodds/testing-workshop/commits?author=gothinkster) | [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub>Kent C. Dodds</sub>](https://kentcdodds.com)<br />[💻](https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds) [📖](https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds) 🚇 [⚠️](https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds) | [<img src="https://avatars.githubusercontent.com/u/3995499?v=3" width="100px;"/><br /><sub>Callum Mellor-Reed</sub>](http://callummr.com)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Acallummr) [💻](https://github.com/kentcdodds/testing-workshop/commits?author=callummr) | [<img src="https://avatars.githubusercontent.com/u/622118?v=3" width="100px;"/><br /><sub>Eric McCormick</sub>](https://ericmccormick.io)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Aedm00se) [💻](https://github.com/kentcdodds/testing-workshop/commits?author=edm00se) | [<img src="https://avatars1.githubusercontent.com/u/2028470?v=3" width="100px;"/><br /><sub>Paul Falgout</sub>](http://otterball.com)<br />[💻](https://github.com/kentcdodds/testing-workshop/commits?author=paulfalgout) [📖](https://github.com/kentcdodds/testing-workshop/commits?author=paulfalgout) | [<img src="https://avatars1.githubusercontent.com/u/13877279?v=3" width="100px;"/><br /><sub>Brett Caudill</sub>](https://github.com/asBrettisay)<br />[💻](https://github.com/kentcdodds/testing-workshop/commits?author=asBrettisay) [📖](https://github.com/kentcdodds/testing-workshop/commits?author=asBrettisay) | [<img src="https://avatars2.githubusercontent.com/u/1271364?v=3" width="100px;"/><br /><sub>Jennifer Mann</sub>](http://jennifermann.ghost.io)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Ajennifer-mann) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [<img src="https://avatars1.githubusercontent.com/u/1268976?v=3" width="100px;"/><br /><sub>Brian Mann</sub>](https://cypress.io)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Abrian-mann) | [<img src="https://avatars1.githubusercontent.com/u/840935?v=3" width="100px;"/><br /><sub>Francisco Ramini</sub>](https://github.com/framini)<br />[📖](https://github.com/kentcdodds/testing-workshop/commits?author=framini) |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
 
 [npm]: https://www.npmjs.com/
 [yarn]: https://yarnpkg.com/

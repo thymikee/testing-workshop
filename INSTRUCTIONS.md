@@ -1,6 +1,6 @@
 # Instructions
 
-> This is a work in progress, but I think it'll be much easier for you to know what to do to have it written out!
+> For this workshop we can skip API-related tests.
 
 ## API Unit Tests
 
