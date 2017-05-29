@@ -37,6 +37,10 @@ Setup is the same as above!
 
 ## Client Unit Tests
 
+```shell
+yarn start client.unit
+```
+
 - Run `npm start client.unit` to run the tests in watch mode
 - Relevant files:
   - You'll write your tests in: `src/reducers/__tests__/` and `src/screens/__tests__`
@@ -45,6 +49,10 @@ Setup is the same as above!
   - The solution is in: `client-final/tests/unit/`
 
 ## Client Integration Tests
+
+```shell
+yarn start client.integration
+```
 
 - Run `npm start client.integration` to run the tests in watch mode
 - Relevant files:
