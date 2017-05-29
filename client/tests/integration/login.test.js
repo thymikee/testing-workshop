@@ -26,5 +26,3 @@
 // Remember that there are some helpers you can
 // get to render the <Login /> with predefined state.
 import Login from '../../src/screens/login'
-
-test('name it properly')

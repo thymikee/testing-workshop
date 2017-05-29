@@ -13,8 +13,6 @@ import {Component as Editor} from '../editor'
 //   and play around with the tag component. How could we use some
 //   of the utilities to make sure that interaction keeps working?
 
-test('name it properly')
-
 // I'm going to go ahead and give these utils to you
 // because I think you get the idea :)
 // And this is a little domain-specific anyway.

@@ -11,7 +11,7 @@ test('logs in when the form is submitted', async () => {
     email: 'me@example.com',
     username: 'vador',
   }
-  axiosMock.__mock.instance.post.mockImplementation(() => {
+  axiosMock.post.mockImplementation(() => {
     return Promise.resolve({data: {user: {token}}})
   })
 
@@ -21,8 +21,8 @@ test('logs in when the form is submitted', async () => {
   wrapper.find(sel('password')).node.value = user.password
   wrapper.find('form').simulate('submit')
   await flushAllPromises()
-  expect(axiosMock.__mock.instance.post).toHaveBeenCalledTimes(1)
-  expect(axiosMock.__mock.instance.post).toHaveBeenCalledWith('/users', {
+  expect(axiosMock.post).toHaveBeenCalledTimes(1)
+  expect(axiosMock.post).toHaveBeenCalledWith('/users', {
     user,
   })
   expect(history.location.pathname).toBe('/')

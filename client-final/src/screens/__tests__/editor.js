@@ -64,8 +64,3 @@ function keyUpInput(input, keyCode) {
 function sel(id) {
   return `[data-test="${id}"]`
 }
-
-test('I submitted my elaboration and feedback', () => {
-  const submitted = true
-  expect(true).toBe(submitted)
-})
