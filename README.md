@@ -113,6 +113,13 @@ the same time. Your browser should open up automatically to
 `http://localhost:8080` (if it doesn't, just open that yourself) and you should
 be able to start messing around with the app.
 
+There's also a posibility to run the app without a dev server, using API available online.
+Just go to `client` directory and run:
+
+```shell
+npm start
+```
+
 Here's what you should be looking at:
 
 <img src="other/conduit-screenshot.png" alt="Conduit Screenshot" title="Conduit Screenshot" width="700" />
