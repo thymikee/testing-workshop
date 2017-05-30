@@ -57,7 +57,6 @@ commands to get set up:
 git clone https://github.com/thymikee/testing-workshop.git
 cd testing-workshop
 npm run setup --silent
-node ./scripts/autofill-feedback-email.js YOUR@EMAIL.com
 git commit -am "ready to go"
 ```
 
